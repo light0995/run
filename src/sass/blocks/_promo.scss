@@ -1,0 +1,93 @@
+.promo {
+  background: url("../img/bg.png") center center/cover no-repeat;
+  padding: 21px 0 93px 0;
+  color: #fff;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_official {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 12px;
+      text-align: center;
+    }
+
+    &_brands {
+      font-family: MuseoModerno;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28.62px;
+      text-align: center;
+      margin-top: 7px;
+    }
+
+    &_contacts {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+    }
+
+    &_number {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 18px;
+      text-align: right;
+      text-decoration: none;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 91px;
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    margin-top: 17px;
+    text-transform: uppercase;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px;
+    margin-top: 60px;
+  }
+
+  &__item {
+    text-align: center;
+    &_descr {
+      margin-top: 15px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 14px;
+    }
+  }
+
+  &__offer {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  &__catalog {
+    margin-top: 8px;
+    &_click {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 25.44px;
+      color: #fff;
+    }
+  }
+}
